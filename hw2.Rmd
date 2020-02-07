@@ -76,7 +76,7 @@ compact_car
 ```
 3. Create a scatterplot of `hwy` and `cty` and describe the relationship. Why are there so few points visible? Explain your findings.
 ```{r}
-plot(mpg$hwy,mpg$cty,xlab="highway miles per gallon",ylab="city miles per gallon",col="red")
+plot(mpg$hwy,mpg$cty,xlab="highway miles per gallon",ylab="city miles per gallon")
 
 ```
 The higher the highway miles per gallon, the higher city miles per gallon. There are so few visible points because some of them are on top of each other.
